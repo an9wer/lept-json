@@ -1,0 +1,4 @@
+{
+    "name": "test-leptjson",
+    "install": "sudo make && sudo make install"
+}
