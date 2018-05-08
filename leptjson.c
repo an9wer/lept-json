@@ -45,7 +45,6 @@ static int lept_parse_false(lept_context *c, lept_value *v)
     c->json += 4;
     v->type = LEPT_FALSE;
     return LEPT_PARSE_OK;
-
 }
 
 static int lept_parse_value(lept_context *c, lept_value *v)
